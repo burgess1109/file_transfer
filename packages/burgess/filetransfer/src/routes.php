@@ -12,4 +12,5 @@
 */
 
 Route::get('filetransfer', 'Burgess\FileTransfer\FileTransferController@transfer');
+Route::get('test', 'Burgess\FileTransfer\TestController@index');
 
