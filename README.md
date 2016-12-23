@@ -2,6 +2,13 @@
 
 起因：因專案需求進行大量資料下載及轉移
 
+# 安裝方式
+
+1. 切換報專案目錄下，執行 composer require burgess1109/file_transfer:* 
+
+2. 至 config/app.php 'providers'內加入 Burgess\FileTransfer\FileTransferServiceProvider::class,
+
+
 # 環境參數(.env)
 
 使用Storage ftp 上傳時需做下列設定  
