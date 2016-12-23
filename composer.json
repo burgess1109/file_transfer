@@ -3,6 +3,12 @@
     "description": "CURL files",
     "keywords": ["curl", "transfer","upload"],
     "license": "MIT",
+    "authors": [
+      {
+        "name": "BurgessChen",
+        "email": "loveshe76119@gmail.com"
+      }
+    ],
     "type": "project",
     "require": {
         "php": ">=5.5.9",
